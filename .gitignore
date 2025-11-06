@@ -1,0 +1,131 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env
+.env.*
+env.bak/
+.python-version
+pip-wheel-metadata/
+
+# Jupyter
+.ipynb_checkpoints
+*.ipynb_checkpoints
+*.nbconvert.ipynb
+
+# Data files (do not commit raw/large datasets)
+/data/
+/datasets/
+/data_raw/
+/data_processed/
+/raw_data/
+/processed_data/
+*.csv
+*.tsv
+*.parquet
+*.feather
+*.h5
+*.hdf5
+*.zip
+*.tar.gz
+*.sqlite
+*.db
+
+# Models, artifacts, outputs
+/models/
+/artifacts/
+/outputs/
+/predictions/
+/checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.joblib
+*.pkl
+*.sav
+
+# Logs and reports
+logs/
+*.log
+coverage.xml
+htmlcov/
+.coverage
+nosetests.xml
+
+# Packaging / build
+build/
+dist/
+*.egg-info/
+wheelhouse/
+*.whl
+
+# Testing
+.pytest_cache/
+
+# Caches, type checkers & linters
+.mypy_cache/
+.pyre/
+.coverage
+.cache/
+.dmypy.json
+
+# IDEs and editors
+.vscode/
+.idea/
+*.iml
+*.sublime-workspace
+*.sublime-project
+*.swp
+*~
+.cache/
+.ropeproject/
+history/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Secrets and credentials
+*.pem
+*.key
+*.crt
+secrets.*
+credentials.*
+local_settings.py
+*.secret
+*.env.local
+
+# Docker
+docker-compose.override.yml
+.Dockerfile.swp
+docker-compose.*.yml
+
+# Node / frontend
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnp/
+.pnp.js
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+.terraform.lock.hcl
+
+# Vagrant
+.vagrant/
+
+# Misc
+instance/
+.webassets-cache
+celerybeat-schedule
+*.bak
+*.orig
