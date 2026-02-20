@@ -79,7 +79,7 @@ patient_data = patient_data.reindex(columns=feature_names, fill_value=0)
 # Normalisation des données
 patient_data_scaled = scaler.transform(patient_data)
 
-# Prédiction
+## Prédiction
 if st.button("Prédire la zone de tension"):
         # Faire la prédiction avec les probabilités
     probas = model.predict_proba(patient_data_scaled)
